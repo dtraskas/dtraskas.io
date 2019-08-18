@@ -1,0 +1,41 @@
+baseURL = "http://example.org/"
+languageCode = "en-gb"
+title = "dtraskas.io"
+theme = "book" 
+
+pygmentsCodeFences= true
+
+[params]
+  # (Optional, default none) Set leaf bundle to render as side menu
+  # When not specified file structure and weights will be used
+  BookMenuBundle= 'menu'
+
+  # (Optional, default docs) Specify section of content to render as menu
+  # You can also set value to '*' to render all sections to menu
+  BookSection = 'menu'
+
+  BookSearch = false
+
+[[deployment.targets]]
+# An arbitrary name for this target.
+name = "blogDeployment"
+
+URL = "s3://dtraskas.io?region=eu-west-2"
+
+# [[deployment.matchers]] configure behavior for files that match the Pattern.
+# Samples:
+
+[[deployment.matchers]]
+#  Cache static assets for 20 years.
+pattern = "^.+\\.(js|css|svg|ttf)$"
+cacheControl = "max-age=630720000, no-transform, public"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(png|jpg)$"
+cacheControl = "max-age=630720000, no-transform, public"
+gzip = false
+
+[[deployment.matchers]]
+pattern = "^.+\\.(html|xml|json)$"
+gzip = true

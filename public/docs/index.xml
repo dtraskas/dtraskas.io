@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on dtraskas.io</title>
+    <link>http://example.org/docs/</link>
+    <description>Recent content in Docs on dtraskas.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    
+	<atom:link href="http://example.org/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>http://example.org/docs/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/about/</guid>
+      <description>About I&amp;rsquo;m an engineer at CACI UK designing and building real-time, high performance systems using Kubernetes, Python, AWS and more. My team works on marketing technology developing identity resolution software and APIs that enrich the user experience on the web and mobile.
+I have been writing software for the last 20 years and I think that software engineering is unlike any other type of engineering. In university we were taught with the typical analogy of building architects and mechanical engineers.</description>
+    </item>
+    
+  </channel>
+</rss>
