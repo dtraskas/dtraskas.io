@@ -1,5 +1,4 @@
-### Python is necessary for AWS CLI
-language: none
+language: bash
 
 ### Installing pre-requisites
 install:
