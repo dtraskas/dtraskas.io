@@ -17,6 +17,7 @@ deploy:
   on:
     branch: master
   provider: s3
+  
   # You can refer to environment variables from Travis repo settings!
   access_key_id: $AWS_ACCESS_KEY_ID
   secret_access_key: $AWS_SECRET_ACCESS_KEY
