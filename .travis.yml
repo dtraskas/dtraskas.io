@@ -20,8 +20,7 @@ deploy:
   # builds of your repo's master branch (e.g., after you merge a PR).
   on:
     branch: master
-  provider: s3
-  
+  provider: s3  
   # You can refer to environment variables from Travis repo settings!
   access_key_id: $AWS_ACCESS_KEY_ID
   secret_access_key: $AWS_SECRET_ACCESS_KEY
@@ -31,5 +30,3 @@ deploy:
   skip_cleanup: true
   # Path to a directory containing your built site.
   local_dir: public # Default build directory for Hugo
-  # Set the Cache-Control header.
-  cache_control: "max-age=21600"
