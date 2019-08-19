@@ -26,7 +26,6 @@ deploy:
   secret_access_key: $AWS_SECRET_ACCESS_KEY
   # Name of the S3 bucket to which your site should be uploaded.
   bucket: $S3_BUCKET
-  endpoint: $S3_ENDPOINT
   region: "eu-west-2"
     # Prevent Travis from deleting your built site so it can be uploaded.
   skip_cleanup: true
