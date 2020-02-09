@@ -13,6 +13,9 @@ install:
 script:
     - hugo
 
+before_deploy:
+    - aws s3 rm s3://dtraskas.io --recursive --region eu-west-2
+
 ### Sending newly generated website to S3 bucket
 deploy:
   # Control deployment by setting a value for `on`. Setting the `branch`
@@ -28,6 +31,6 @@ deploy:
   bucket: $S3_BUCKET
   region: "eu-west-2"
     # Prevent Travis from deleting your built site so it can be uploaded.
-  skip_cleanup: false
+  skip_cleanup: true
   # Path to a directory containing your built site.
   local_dir: public # Default build directory for Hugo
