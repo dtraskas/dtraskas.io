@@ -1,6 +1,6 @@
 ---
 author: "Dimitris Traskas"
-date: 2019-07-12
+date: 2020-02-07
 linktitle: Automatic file splitting on S3
 menu:
   main:
@@ -12,6 +12,6 @@ weight: 10
 ---
 
 
-## The full power of the AWS CLI
+# **The full power of the AWS CLI**
 
 For the last few years that I have been working with the AWS platform I've been experimenting with different features that are available to the platform but one thing really escaped me until I had the need for it. We were working on a project that required large volumes of data to be processed during an initial boostrapping process.

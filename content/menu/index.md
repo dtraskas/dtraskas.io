@@ -3,5 +3,5 @@ headless: true
 ---
 
 - [**HOME**]({{< relref "/" >}})
-- [**ARTICLES**]({{< relref "/posts" >}})
+- [**ARTICLES**]({{< relref "/articles" >}})
 - [**ABOUT**]({{< relref "/docs/about" >}})
