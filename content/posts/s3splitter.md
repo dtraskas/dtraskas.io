@@ -1,13 +1,13 @@
 ---
 author: "Dimitris Traskas"
-date: 2019-07-16
-linktitle: Almost $0 cost automatic file splitting on S3
+date: 2020-02-07
+linktitle: Almost free automatic file splitting on S3
 menu:
   main:
     parent: 
 next: 
 prev: 
-title: Almost $0 cost automatic file splitting on S3
+title: Almost free automatic file splitting on S3
 weight: 10
 ---
 
