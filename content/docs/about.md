@@ -7,7 +7,7 @@ weight: 10
 
 # <b>About</b>
 
-I'm an engineer at <a href="http://www.caci.co.uk/">CACI UK</a> designing and building real-time, high performance systems using Kubernetes, Python, AWS and more. My team works on marketing technology developing identity resolution software and APIs that enrich the user experience on the web and mobile.
+I'm the tech lead for the R&D team at <a href="http://www.caci.co.uk/">CACI UK</a>, designing and building real-time, high performance APIs using Kubernetes, Python, Golang, AWS, Azure and more. My team works on marketing technology developing identity management systems and APIs that enrich the user experience on the web and mobile.
 
 I have been writing software for the last 20 years and I think that software engineering is unlike any other type of engineering. In university we were taught with the typical analogy of building architects and mechanical engineers. This analogy doesn't seem to work well in many scenarios and distracts from the real complexities of software. Increased complexity in the software development process often makes me think that there must be a better approach. I am always interested in creating new tools, looking at new methodologies and automating as much as possible.
 
