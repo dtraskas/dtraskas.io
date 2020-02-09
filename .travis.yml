@@ -28,6 +28,6 @@ deploy:
   bucket: $S3_BUCKET
   region: "eu-west-2"
     # Prevent Travis from deleting your built site so it can be uploaded.
-  skip_cleanup: true
+  skip_cleanup: false
   # Path to a directory containing your built site.
   local_dir: public # Default build directory for Hugo
