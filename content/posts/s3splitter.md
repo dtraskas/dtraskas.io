@@ -1,0 +1,17 @@
+---
+author: "Dimitris Traskas"
+date: 2019-07-16
+linktitle: Almost $0 cost automatic file splitting on S3
+menu:
+  main:
+    parent: 
+next: 
+prev: 
+title: Almost $0 cost automatic file splitting on S3
+weight: 10
+---
+
+
+# The full power of the AWS CLI
+
+For the last few years that I have been working with the AWS platform I've been 
