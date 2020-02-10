@@ -14,8 +14,8 @@ pygmentsCodeFences= true
   # You can also set value to '*' to render all sections to menu
   BookSection = 'menu'
 
-  BookSearch = false
-
+  BookSearch = false  
+  
 [[deployment.targets]]
 # An arbitrary name for this target.
 name = "blogDeployment"

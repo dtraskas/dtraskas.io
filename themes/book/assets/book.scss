@@ -20,7 +20,7 @@ body {
   color: $body-font-color;
   background: $body-background;
 
-  font-family: sans-serif;
+  font-family: $body-font-family;
   font-weight: $body-font-weight;
 
   text-rendering: optimizeLegibility;
@@ -38,7 +38,25 @@ h2,
 h3,
 h4,
 h5 {
+  font-family: $body-font-family;
   font-weight: $body-font-weight;
+}
+
+p {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 30px;
+}
+
+li {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;  
+}
+
+h1 {
+  font-size: 5.75rem;
+  letter-spacing: -6px;
+  line-height: 1em;  
 }
 
 a {
@@ -98,11 +116,11 @@ ul.pagination {
 .book-menu {
   flex: 0 0 $menu-width;
   font-size: $font-size-14;
-
+  
   nav {
     width: $menu-width;
     padding: $padding-16;
-
+    margin-top: 100px;
     @include fixed;
   }
 
@@ -129,6 +147,8 @@ ul.pagination {
 .book-page {
   min-width: $body-min-width;
   flex-grow: 1;
+  margin-top: 100px;
+  margin-right: 40%;
   padding: $padding-16;
 }
 
@@ -181,13 +201,11 @@ ul.pagination {
 
 .book-toc {
   flex: 0 0 $toc-width;
-  font-size: $font-size-12;
-
+  font-size: $font-size-12;  
+  vertical-align: baseline;
   nav {
     width: $toc-width;
-    padding: $padding-16;
-
-    @include fixed;
+    padding: $padding-16;        
   }
 
   img {
@@ -195,9 +213,17 @@ ul.pagination {
   }
 
   nav > ul > li:first-child {
-    margin-top: 0;
+    margin-top: 0;    
   }
-
+  nav > ul {
+    list-style-type: decimal;
+  }
+  nav > ul ul {
+    list-style-type: lower-latin;
+  }
+  nav > ul ul ul {
+    list-style-type: lower-roman;
+  }
   // Classes to hide nested levels of ToC (can be replaced by @for, but it's more clear like this)
   &.level-1 ul ul,
   &.level-2 ul ul ul,
@@ -205,7 +231,7 @@ ul.pagination {
   &.level-4 ul ul ul ul ul,
   &.level-5 ul ul ul ul ul ul,
   &.level-6 ul ul ul ul ul ul ul {
-    display: none;
+    display: none;        
   }
 }
 
@@ -224,7 +250,7 @@ ul.pagination {
   max-width: $body-min-width * 2;
   flex-grow: 1;
   padding: $padding-16;
-
+  
   article {
     padding-bottom: $padding-16;
   }
@@ -283,7 +309,7 @@ aside nav,
   .book-posts,
   .book-menu nav,
   .book-toc nav {
-    padding: $padding-16 * 2 $padding-16;
+    padding: $padding-4 * 2 $padding-16;
   }
 }
 

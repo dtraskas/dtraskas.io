@@ -1,14 +1,18 @@
+{{ define "toc" }}
+  {{ partial "docs/toc" . }}
+{{ end }}
 {{ define "main" }}
+  <div id="title" class="title-header"><h1>Articles</h1></div>
   {{ $dateFormat := default "January 2, 2006" .Site.Params.BookDateFormat }}
-  {{ $paginator := .Paginate (where .Pages "Params.hidden" "ne" true) }}
+  {{ $paginator := .Paginate (where .Pages "Params.hidden" "ne" true) }}  
   {{ range sort .Paginator.Pages }}
-  <article class="markdown">
+  <article class="markdown">    
     <h2>
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     </h2>
-    <h5>
-      <strong>{{ .Date.Format $dateFormat }}</strong>
-    </h5>
+    <span class="meta">
+      {{ .Date.Format $dateFormat }}
+    </span>
     <p>
       {{- .Summary -}}
       {{ if .Truncated }}

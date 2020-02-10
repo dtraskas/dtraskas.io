@@ -24,20 +24,22 @@ $gray-800: #343a40;
 $gray-900: #212529;
 $black: #000;
 
-$color-link: #004ed0;
-$color-visited-link: #8440f1;
+$color-link: #000;
+$color-visited-link: #000;
 $color-dark-link: $gray-800;
 
 $body-background: white;
 $body-font-color: $gray-800;
-$body-font-weight: normal;
+$body-font-weight: 400;
+$body-font-family: helvetica, arial, sans-serif;
 
 $body-min-width: 20rem;
-$container-max-width: 80rem;
+$container-max-width: 110rem;
 
 $header-height: 3.5rem;
-$menu-width: 16rem;
-$toc-width: 16rem;
+$menu-width: 10rem;
+$toc-width: 18rem;
+$toc-margin-top: 16rem;
 
 $md-breakpoint: $menu-width + $body-min-width * 1.25 + $toc-width;
 $sm-breakpoint: $menu-width + $body-min-width;

@@ -1,79 +1,22 @@
 ---
 title: Introduction
 type: docs
+BookToC: false
 ---
 
-# Acerbo datus maxime
+## Who Am I
 
-{{< columns >}}
-## Astris ipse furtiva
-
-Est in vagis et Pittheus tu arge accipiter regia iram vocatur nurus. Omnes ut
-olivae sensit **arma sorori** deducit, inesset **crudus**, ego vetuere aliis,
-modo arsit? Utinam rapta fiducia valuere litora _adicit cursu_, ad facies
-
-<--->
-
-## Suis quot vota
-
-Ea _furtique_ risere fratres edidit terrae magis. Colla tam mihi tenebat:
-miseram excita suadent es pecudes iam. Concilio _quam_ velatus posset ait quod
-nunc! Fragosis suae dextra geruntur functus vulgata.
-{{< /columns >}}
+My name is Dimitris Traskas and I am a Lead Software Engineer at [CACI UK](http://www.caci.co.uk). Automation, distributed systems and AI are some of my areas of interest. I've been a software engineer for almost two decades now and had the privilege to work with some great people on a few interesting projects. I never get tired of new challenges especially if it is to create something completely new. 
 
 
-## Tempora nisi nunc
+## My Career Path
 
-Lorem **markdownum** emicat gestu. Cannis sol pressit ducta. **Est** Idaei,
-tremens ausim se tutaeque, illi ulnis hausit, sed, lumina cutem. Quae avis
-sequens!
+In my early years as a software engineer I did quite a bit of freelancing mainly working in Visual Basic and Excel. I haven't been in touch with VB since those early days, although I imagine there are still plenty of people using it. I then moved on to a consultancy firm where I was exposed to a lot of interesting problems that involved optimisation, simulation and forecasting. After that I started my long standing career with CACI UK where I currently lead R&D work in the marketing sector. Within that period I did AI research with Bath University on Multi-Agent Systems which unfortunately I had to discontinue for personal reasons. More recently I completed a self-driving car course with Udacity which was very interesting to work on.
 
-    var panel = ram_design;
-    if (backup + system) {
-        file.readPoint = network_native;
-        sidebar_engine_device(cell_tftp_raster,
-                dual_login_paper.adf_vci.application_reader_design(
-                graphicsNvramCdma, lpi_footer_snmp, integer_model));
-    }
-    public_keyboard_docking += error.controller_gibibyte_plug.ip(4,
-            asciiPetaflops, software(supercomputer_compatible_status + 4));
-    dynamic_disk.indexModeLaptop = bufferTftpReality;
-    var export_vlog_sequence = trinitron_flowchart + supercomputer_cluster_rj(
-            -1, toolbar_powerpoint_query, -2 / multiprocessing_impression);
+## About This Site
 
-## Locis suis novi cum suoque decidit eadem
+I enjoy writing and did quite a bit when I was doing PhD research in Bath. I created this site in order practice my writing more and in order to record some of my findings. Things that I discover on a daily basis and that are of interest. Ideas that are worth mentioning or even pursuing. Or anything else that I think it is worth mentioning. 
 
-Idmoniae ripis, at aves, ali missa adest, ut _et autem_, et ab? Venit spes
-versus finis sermonibus patefecit murum nec est sine oculis. _Ille_ inmota
-macies domoque caelestia cadit tantummodo scelus procul, corde!
+## Contact me
 
-1. Dolentem capi parte rostro alvum habentem pudor
-2. Fulgentia sanguine paret
-3. E punior consurgit lentus
-4. Vox hasta eras micantes
-
-## Facibus pharetrae indetonsusque indulsit sic incurrite foliis
-
-Nefandam et prisci palmas! Blandita cutis flectitur montis macies, te _nati_
-Latiis; turbaque inferias. Virginis tibi peracta avidusque facies caper nec, e
-at ademptae, mira.
-
-    direct *= font(inputScareware(sliHome), crossplatform.byte(
-            ppl_encryption.excel_e_rte(integratedModelModifier), timeVirtual,
-            floating_speakers.media_printer(us, yahoo, primaryPhp)));
-    friendly_metal_flatbed(cd, isoPrimaryStorage(reader), dmaMirrored);
-    if (parse_flash_cron.metalGif(1, adServiceDevice, utility)) {
-        adf -= operation_cdma_samba;
-        imapGif.switch += torrent;
-    } else {
-        pmu.disk_captcha = digital_ppp_pci + recursionTransistor(5, dram);
-        ajax_service += grayscalePythonLock;
-        google_scroll_capacity = ftp + engine_dslam_sidebar / tape - 1;
-    }
-    drive_rw = zipTftp;
-    var suffix = software_router_extension.dimm_ddr(-5,
-            kernel_digital_minisite);
-
-Vocavit toto; alas **mitis** maestus in liquidarum ab legi finitimosque dominam
-tibi subitus; Orionis vertitur nota. Currere alti etiam seroque cernitis
-innumeris miraturus amplectique collo sustinet quemque! Litora ante turba?
+If you wish to contact me, drop me a message here [@dtraskas](https://twitter.com/dtraskas). I am always interested in collaborations, new ideas and projects. If you have any questions or critical comments regarding my blog posts, please let me know. If you have any questions regarding my GitHub public repos, please open an issue ticket.
