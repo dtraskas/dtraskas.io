@@ -1,10 +1,10 @@
 ---
-title: Introduction
+title: Home
 type: docs
 BookToC: false
 ---
 
-![alt-text](https://via.placeholder.com/846x300.png)
+![alt-text](photos/theroad.png)
 
 ## Who Am I
 
