@@ -5,7 +5,7 @@ bookToc: false
 weight: 10
 ---
 
-# <b>About</b>
+# About
 
 I'm the tech lead for the R&D team at [CACI UK](http://www.caci.co.uk), designing and building real-time, high performance APIs using Kubernetes, Python, Golang, AWS, Azure and more. My team works on marketing technology developing identity management systems and APIs that enrich the user experience on the web and mobile.
 
