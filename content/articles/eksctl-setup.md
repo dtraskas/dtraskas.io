@@ -13,8 +13,6 @@ summary: "Using eksctl to provision a brand new Kubernetes cluster. Start a new 
 BookToC: true
 ---
 
-## Intro
-
 Provisioning and managing production Kubernetes clusters in platforms such as AWS was never without it's problems and compared to Google Cloud there are still a lot of things AWS can improve with. When we first started setting up Kubernetes in production we used [Kops](https://kops.sigs.k8s.io/). Kops is a great CLI tool that allows you to go from zero to hero in a matter of a few minutes. With the advent of AWS managed Kubernetes clusters, we realised that there might be some benefits going down the route of using the bespoke platform tools. 
 
 The [EKS](https://aws.amazon.com/eks/) service for provisioning Kubernetes in AWS is pretty basic in its functionality so we needed to use something closer to Kops. Using [eksctl](https://eksctl.io/), the official AWS CLI tool for Kubernetes provisioning and cluster management was the solution. The `eksctl` tool was originally created by **Weaveworks** but later adopted by AWS. With it you can create your cluster, nodegroups, set up VPC networking, auto scaling groups, manage IAM users and roles, and more. Once you have a cluster up and running you can make a few changes but still not to the level of what Kops gives you. From what we have seen so far `eksctl` is a good tool but there is still a lot of work that needs to be done.
