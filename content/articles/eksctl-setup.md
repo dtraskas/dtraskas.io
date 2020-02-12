@@ -9,7 +9,7 @@ next:
 prev: 
 title: Kubernetes cluster provisioning with eksctl
 weight: 10
-summary: "Using EKSCTL to provision a brand new Kubernetes cluster. Start a new cluster from scratch and set up a K8S dashboard, storage classes, Helm and more."
+summary: "Using eksctl to provision a brand new Kubernetes cluster. Start a new cluster from scratch and set up a K8S dashboard, storage classes, Helm and more."
 BookToC: true
 ---
 
