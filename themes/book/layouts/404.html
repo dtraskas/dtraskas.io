@@ -4,6 +4,7 @@
 <head>
   {{ partial "docs/html-head" . }}
   {{ partial "docs/inject/head" . }}
+  {{ template "_internal/google_analytics_async.html" . }}
 </head>
 
 <body>
@@ -11,8 +12,7 @@
     <h1>404 Not Found</h1>
   </main>
 
-  {{ partial "docs/inject/body" . }}
-  {{ template "_internal/google_analytics_async.html" . }}
+  {{ partial "docs/inject/body" . }}  
 </body>
 
 </html>
