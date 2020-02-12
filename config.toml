@@ -2,7 +2,7 @@ baseURL = "http://dtraskas.io/"
 languageCode = "en-gb"
 title = "dtraskas.io"
 theme = "book" 
-
+googleAnalytics = "UA-158248683-1"
 pygmentsCodeFences= true
 
 [params]
