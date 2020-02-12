@@ -215,6 +215,18 @@ ul.pagination {
   nav > ul > li:first-child {
     margin-top: 0;    
   }
+
+  nav > ul {
+    list-style-type: decimal;
+  }
+
+  nav > ul ul {
+    list-style-type: lower-latin;
+  }
+
+  nav > ul ul ul {
+    list-style-type: lower-roman;
+  }
   
   // Classes to hide nested levels of ToC (can be replaced by @for, but it's more clear like this)
   &.level-1 ul ul,
@@ -224,10 +236,6 @@ ul.pagination {
   &.level-5 ul ul ul ul ul ul,
   &.level-6 ul ul ul ul ul ul ul {
     display: none;        
-  }
-
-  nav > ul > li {
-    list-style-type: decimal;
   }
 }
 
