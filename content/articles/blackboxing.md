@@ -30,21 +30,21 @@ The [Github repo on BlackBox](https://github.com/StackExchange/blackbox) has all
 
 1. Download GPG command line tools from [here](https://www.gnupg.org/download/)
 2. Generate a GPG key pair by running this:
-    ```shell
+    ```
     $ gpg --full-generate-key
     ```
 3. Accept the default parameters specified (use a key at last 4096 bits long)
 4. Enter user info and a secure passphrase
 5. Install blackbox using Homebrew by running:
-    ```shell
+    ```
     $ brew install blackbox
     ```
 6. Initialize blackbox in your repo by running:
-    ```shell
+    ```
     $ blackbox_initialize
     ```
 7. If you need to encrypt a file that has secrets then run:
-    ```shell
+    ```
     $ blackbox_register_new_file <name of the file>
     ```
 
