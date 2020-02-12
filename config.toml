@@ -4,8 +4,8 @@ title = "Dimitris Traskas"
 theme = "book" 
 googleAnalytics = "UA-158248683-1"
 pygmentsCodeFences= true
-enableRobotsTXT = true
-canonifyURLs = true
+#enableRobotsTXT = true
+#canonifyURLs = true
 
 [params]
   # (Optional, default none) Set leaf bundle to render as side menu
