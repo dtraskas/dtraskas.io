@@ -226,14 +226,8 @@ ul.pagination {
     display: none;        
   }
 
-  nav > ul {
+  nav > ul > li {
     list-style-type: decimal;
-  }
-  nav > ul ul {
-    list-style-type: lower-latin;
-  }
-  nav > ul ul ul {
-    list-style-type: lower-roman;
   }
 }
 
