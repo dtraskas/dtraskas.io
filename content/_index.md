@@ -4,7 +4,7 @@ type: docs
 BookToC: false
 ---
 
-![alt-text](photos/theroad.png)
+![alt-text](photos/theroad.png "The Road")
 
 ## Who Am I
 
