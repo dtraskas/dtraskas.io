@@ -4,7 +4,7 @@ title = "Dimitris Traskas"
 theme = "book" 
 googleAnalytics = "UA-158248683-1"
 pygmentsCodeFences= true
-#enableRobotsTXT = true
+enableRobotsTXT = true
 #canonifyURLs = true
 
 [params]
