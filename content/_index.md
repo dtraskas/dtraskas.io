@@ -1,5 +1,5 @@
 ---
-title: Home
+title: dtraskas.io
 type: docs
 BookToC: false
 ---
