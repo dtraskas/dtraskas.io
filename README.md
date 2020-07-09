@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/dtraskas/dtraskas.io.svg?branch=master)](https://travis-ci.org/dtraskas/dtraskas.io)
+![Blog CI](https://github.com/dtraskas/dtraskas.io/workflows/Blog%20CI/badge.svg)
 
 # Static Blog Site
 
