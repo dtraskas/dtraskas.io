@@ -7,11 +7,11 @@ weight: 10
 
 # About
 
-I'm the tech lead for the R&D team at [CACI UK](http://www.caci.co.uk), designing and building real-time, high performance APIs using Kubernetes, Python, Golang, AWS, Azure and more. My team works on marketing technology developing identity management systems and APIs that enrich the user experience on the web and mobile.
+I'm a Software Engineer, designing and building real-time, web APIs using Kubernetes, Python, Golang, AWS, Azure and more. I've been a tech lead for many years and have been specialising in martech, developing Cloud integrations, identity matching systems and data APIs that enrich the user experience on the web and mobile.
 
-I have been writing software for the last 20 years and my passion for software engineering keeps me always interested. I am open to new ideas and approaches but I also like to revisit older stuff. These days I'm very keen with Cloud services and automation, as well as Microservices Engineering. At CACI we have already developed a lot of the back-end infrastructure powering our data products and services using Microservices and Kubernetes. 
+I 've been writing software for the last 20 years and my passion for Software Engineering keeps me always interested in new ideas, languages, tools and practices. These days I'm usually working on automation utilising a variety of Cloud services, as well as building Serverless architectures in AWS, Azure and Kubernetes.  
 
-Other areas of interest are autonomous systems and digital electronics especially avionics. I find the recent advances in rocket and spaceship design made by SpaceX, Relativity, Electron and Blue Origin very exciting. I am keen to learn more about the world of autonomous rockets and spaceships capable of landing with no human intervention either on this planet or remote planets in our solar system.
+Other areas of interest are autonomous systems, self-driving cars, multi-agent technology where I did research for a brief period and learning new programming languages. I also have a lot of enthusiasm for the latest developments in space exploration technology and more specifically SpaceX's upcoming Starship rocket. 
 
 
 ## Technology
